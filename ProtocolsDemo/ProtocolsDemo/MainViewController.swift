@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController,ProtocolTest {
+class MainViewController: UIViewController,SecondViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()

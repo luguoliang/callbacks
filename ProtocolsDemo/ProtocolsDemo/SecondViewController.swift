@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ProtocolTest{
+protocol SecondViewControllerDelegate{
     func getFieldText(fieldText:String)
     }
 
@@ -25,7 +25,7 @@ class SecondViewController: UIViewController,UITextFieldDelegate {
     
     var ClosuresCallBack:((fieldText:String)->(Void))?
     
-    var delegate:ProtocolTest!
+    var delegate:SecondViewControllerDelegate!
     
     @IBOutlet weak var textField: UITextField!
 
